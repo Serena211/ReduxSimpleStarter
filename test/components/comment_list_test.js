@@ -11,7 +11,7 @@ describe('CommentList', () => {
         expect(component).to.have.class('comment-list');
     })
     it('shows LI for each comment', () => {
-        console.log(component.find('li'));
+        // console.log(component);
         expect(component.find('li').length).to.equal(2);
     });
 
